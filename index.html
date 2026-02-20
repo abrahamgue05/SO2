@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background-gradient="linear-gradient(45deg, #2C3E50 0%, #4B79A1 100%)" id="FTP">
+				<section>
+					<h1>FTP</h1>
+					<p>Por Eduardo Abraham López Guerrero</p>
+				</section>
+				<section style="text-align: left;">
+					<h2>Definición</h2>
+					<ul>
+						<li>Protocolo de Transferencia de Archivos (FTP)</li>
+						<li>Protocolo de red estandar utilizado para la transferencia de archivos de un host a otro</li>
+						<li>A traves de una red basada en TCP</li>
+						<li>Basado en la arquitectura cliente-servidor</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Cliente FTP</h2>
+					<p>Software que se instala en la maquina del usuario y permite conectar mediante FTP a un servidor FTP</p>
+				</section>
+				<section>
+					<h2>Servidor FTP</h2>
+					<p>Software que corre en los servidores conectados a Internet (o LAN) y su funcion es que el clinte pueda
+						conectarse a el</p>
+				</section>
+				<section>
+					<h2>Funcionamiento</h2>
+					<ul>
+						<li>Abre dos conexiones que vinculan las computadoras que intentan comunicarse entre si</li>
+						<li>Se designa una conexion para los comandos y respuestas, y otro maneja la transferencia de datos</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Bibliografias</h2>
+					<ul>
+						<li><a href="https://www.fortinet.com/lat/resources/cyberglossary/file-transfer-protocol-ftp-meaning">¿Qué
+								es FTP (Protocolo de transferencia de archivos)?</a></li>
+						<li><a href="https://blog.infranetworking.com/servidor-ftp/#Que_es_un_cliente_FTP">Servidor FTP</a></li>
+					</ul>
+				</section>
+			</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Activate the scroll view
+			view: 'scroll',
+
+			// Force the scrollbar to remain visible
+			scrollProgress: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>

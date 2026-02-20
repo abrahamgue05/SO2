@@ -20,7 +20,7 @@
 <body>
 	<div class="reveal">
 		<div class="slides">
-			<section data-background-gradient="linear-gradient(45deg, #2C3E50 0%, #4B79A1 100%)" id="FTP">
+			<section data-background-gradient="linear-gradient(45deg, #2C3E50 0%, #4B79A1 100%)" id="Actividad 3 - FTP">
 				<section>
 					<h1>FTP</h1>
 					<p>Por Eduardo Abraham López Guerrero</p>
@@ -59,6 +59,59 @@
 					</ul>
 				</section>
 			</section>
+			<section data-background-gradient="linear-gradient(90deg, #232931 0%, #8E5D52 100%)"
+				id="Actividad 4 - Títulos en HTML">
+				<section>
+					<h1>Títulos en HTML</h1>
+					<p>Por Eduardo Abraham López Guerrero</p>
+				</section>
+				<section>
+					<h2>Definición</h2>
+					<ul>
+						<li>Los encabezados implementan seis niveles de encabezados del documento</li>
+						<li>h1 es el mas importante y h6 es el menos importante</li>
+						<li>Describen brevemente el tema de la seccion que presentan</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Niveles de encabezado</h2>
+					<ul>
+						<li><code>&lt;h1&gt;</code> define el encabezado más importante.</li>
+						<li><code>&lt;h6&gt;</code> define el encabezado menos importante.</li>
+						<li>Esto llendo del h1 al h6, siendo el h1 mas grande y el h6 mas pequeño</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Ejemplos</h2>
+					<div style="display: flex; justify-content: space-between; align-items: center;">
+						<div style="width: 48%;">
+							<pre><code data-trim data-noescape class="html">
+								&lt;h1&gt;Encabezado 1&lt;/h1&gt;
+								&lt;h2&gt;Encabezado 2&lt;/h2&gt;
+								&lt;h3&gt;Encabezado 3&lt;/h3&gt;
+								&lt;h4&gt;Encabezado 4&lt;/h4&gt;
+								&lt;h5&gt;Encabezado 5&lt;/h5&gt;
+								&lt;h6&gt;Encabezado 6&lt;/h6&gt;
+							</code></pre>
+						</div>
+						<div
+							style="width: 48%; text-align: left; background: white; color: black; padding: 10px; border-radius: 5px;">
+							<h1 style="color:black; margin: 0;">Encabezado 1</h1>
+							<h2 style="color:black; margin: 0;">Encabezado 2</h2>
+							<h3 style="color:black; margin: 0;">Encabezado 3</h3>
+							<h4 style="color:black; margin: 0;">Encabezado 4</h4>
+							<h5 style="color:black; margin: 0;">Encabezado 5</h5>
+							<h6 style="color:black; margin: 0;">Encabezado 6</h6>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h2>Bibliografias</h2>
+					<ul>
+						<li><a href="https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/Heading_Elements">Elementos títulos</a></li>
+					</ul>
+				</section>
+			</section>
 		</div>
 	</div>
 
@@ -74,10 +127,12 @@
 			hash: true,
 
 			// Activate the scroll view
-			view: 'scroll',
+			// view: 'scroll',
 
 			// Force the scrollbar to remain visible
-			scrollProgress: true,
+			// scrollProgress: true,
+
+			navigationMode: 'default',
 
 			// Learn about plugins: https://revealjs.com/plugins/
 			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]

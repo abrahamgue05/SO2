@@ -1731,6 +1731,54 @@
           </ul>
         </section>
       </section>
+
+      <section data-background-gradient="linear-gradient(135deg, #134E5E 0%, #71B280 100%)" id="Actividad 41 - STARSSL">
+        <section>
+          <h1>CA & StartSSL</h1>
+          <h3>Autoridades de Certificación</h3>
+          <p>Por Eduardo Abraham López Guerrero</p>
+        </section>
+        
+        <section style="text-align: left;">
+          <h2>Definición</h2>
+          <ul>
+            <li><strong>CA (Certificate Authority):</strong> Entidad de máxima confianza responsable de emitir y auditar certificados digitales.</li>
+            <li><strong>El Caso StartSSL:</strong> Fue pionera en dar certificados gratuitos, pero en 2016 fue revocada y bloqueada por navegadores (Chrome, Firefox) tras descubrirse malas prácticas de seguridad.</li>
+          </ul>
+        </section>
+
+        <section style="text-align: left;">
+          <h2>Funcionamiento</h2>
+          <ul>
+            <li><strong>Emisión:</strong> La CA verifica la identidad del dueño del dominio y empaqueta/firma digitalmente su <strong>llave pública</strong>.</li>
+            <li><strong>Validación:</strong> El navegador del cliente descifra la firma de la CA para asegurar que el sitio visitado es auténtico y seguro.</li>
+          </ul>
+        </section>
+
+        <section style="text-align: left;">
+          <h2>Tipos en la Jerarquía</h2>
+          <ul>
+            <li><strong>Certificados Raíz (Root):</strong> Vienen preinstalados en tu sistema operativo/navegador. Son la base de toda la confianza web.</li>
+            <li><strong>Certificados Intermedios:</strong> Actúan como un puente o escudo protector entre el valioso certificado raíz y el certificado final del usuario.</li>
+          </ul>
+        </section>
+
+        <section style="text-align: left;">
+          <h2>Ventajas de Uso</h2>
+          <ul>
+            <li><strong>Cadena de Confianza:</strong> Permite que dispositivos de todo el mundo se conecten de forma segura sin conocerse previamente.</li>
+            <li><strong>Prevención de Fraudes:</strong> Evita ataques de suplantación de identidad (Man-in-the-Middle).</li>
+            <li><strong>Estandarización:</strong> Regula quién y cómo se cifra la información global a través del CAB Forum.</li>
+          </ul>
+        </section>
+        
+        <section>
+          <h2>Bibliografías</h2>
+          <ul>
+            <li><a href="https://blog.mozilla.org/security/2016/10/24/distrusting-new-wosign-and-startcom-certificates/">Mozilla Security: Distrusting StartCom (StartSSL)</a></li>
+          </ul>
+        </section>
+      </section>
         </div>
     </div>
 

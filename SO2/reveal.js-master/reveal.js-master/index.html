@@ -843,7 +843,7 @@
           <h2>Funcionamiento</h2>
           <ul>
             <li><strong>Gestión de Paquetes (APT y Snap):</strong> Utiliza <code>APT</code> para manejar paquetes <i>.deb</i> tradicionales, resolviendo dependencias automáticamente. Además, Canonical impulsó los <strong>Snaps</strong>, un formato de paquetes empaquetados en contenedores con todas sus dependencias incluidas, lo que los hace universales y seguros.</li>
-            <li><strong>Jerarquía de Directorios:</strong> Sigue el estándar FHS de Linux. Todo nace de la raíz (<code>/</code>). Ejemplos: <code>/home</code> (archivos de usuario), <code>/etc</code> (configuraciones globales), <code>/var</code> (registros y bases de datos).</li>
+            <li><strong>Jerarquía de Directorios:</strong> Sigue el estándar FHS de Linux. Todo nace de la raíz (<code>/</code>).
           </ul>
         </section>
 
@@ -852,7 +852,78 @@
           <ul>
             <li><strong>Ubuntu Desktop:</strong> La versión para computadoras personales. Utiliza el entorno de escritorio GNOME modificado. Viene lista para usarse con paquetería de oficina y navegadores.</li>
             <li><strong>Ubuntu Server:</strong> Diseñada para la nube, servidores físicos y máquinas virtuales. No tiene interfaz gráfica, se administra por consola y consume recursos mínimos.</li>
-            <li><strong>Ubuntu Core:</strong> Una versión minimalista y ultra-segura diseñada específicamente para el Internet de las Cosas (IoT) y sistemas embebidos.
+            <li><strong>Ubuntu Core:</strong> Una versión minimalista y ultra-segura diseñada específicamente para el Internet de las Cosas (IoT) y sistemas embebidos.</li>
+          </ul>
+        </section>
+
+        <section style="text-align: left;">
+          <h2>Ventajas de Uso</h2>
+          <ul>
+            <li><strong>Seguridad y Estabilidad LTS:</strong> Las versiones LTS (Long Term Support) se lanzan cada 2 años y garantizan <strong>5 años de actualizaciones gratuitas</strong> de seguridad (extensibles a 10 con Ubuntu Pro), siendo ideales para empresas.</li>
+            <li><strong>Comunidad Extensa:</strong> Al ser la distro más popular, plataformas como <i>AskUbuntu</i> y foros oficiales tienen la solución documentada para prácticamente cualquier problema que un usuario pueda enfrentar.</li>
+          </ul>
+        </section>
+        
+        <section>
+          <h2>Bibliografías</h2>
+          <ul>
+            <li><a href="https://ubuntu.com/about">Sitio Oficial: Acerca de Canonical y Ubuntu</a></li>
+            <li><a href="https://ubuntu.com/server/docs">Documentación Oficial de Ubuntu Server</a></li>
+          </ul>
+        </section>
+      </section>
+
+      <section data-background-gradient="linear-gradient(135deg, #121212 0%, #003300 100%)" id="Actividad 24 - Shell">
+        <section>
+          <h1>La Shell</h1>
+          <p>Por Eduardo Abraham López Guerrero</p>
+        </section>
+        
+        <section style="text-align: left;">
+          <h2>Definición y Entorno</h2>
+          <ul>
+            <li><strong>Concepto:</strong> Es el intérprete de comandos. Actúa como traductor entre el usuario y el Kernel.</li>
+            <li><strong>Entorno:</strong> Una interfaz de texto puro donde se ejecutan programas, herramientas y <i>scripts</i>.</li>
+          </ul>
+        </section>
+
+        <section style="text-align: left;">
+          <h2>Funcionamiento (Ciclo REPL)</h2>
+          <ul>
+            <li><strong>Read (Leer):</strong> Captura el comando que teclea el usuario.</li>
+            <li><strong>Evaluate (Evaluar):</strong> El sistema interpreta y procesa la orden.</li>
+            <li><strong>Print (Imprimir):</strong> Muestra el resultado o el error en la pantalla.</li>
+            <li><strong>Loop (Repetir):</strong> Vuelve a mostrar el <i>prompt</i> ($) esperando la siguiente orden.</li>
+          </ul>
+        </section>
+
+        <section style="text-align: left;">
+          <h2>Tipos de Shell</h2>
+          <ul>
+            <li><strong>Bash:</strong> El estándar clásico en la mayoría de distros Linux.</li>
+            <li><strong>Zsh:</strong> Más moderna, visual y personalizable (actual por defecto en macOS).</li>
+            <li><strong>PowerShell:</strong> De Microsoft. Muy potente porque trabaja con "objetos" en lugar de solo texto.</li>
+            <li><strong>Sh (Bourne):</strong> La abuela de todas. Muy básica, pero universal.</li>
+          </ul>
+        </section>
+
+        <section style="text-align: left;">
+          <h2>Ventajas de Uso</h2>
+          <ul>
+            <li><strong>Automatización:</strong> Escribir <i>scripts</i> para que la PC haga tareas aburridas sola.</li>
+            <li><strong>Control Total:</strong> Permite configurar cosas que la interfaz gráfica simplemente no muestra.</li>
+            <li><strong>Velocidad:</strong> Al no cargar ventanas ni botones, consume poquísima memoria RAM.</li>
+          </ul>
+        </section>
+        
+        <section>
+          <h2>Bibliografías</h2>
+          <ul>
+            <li><a href="https://wiki.archlinux.org/title/Command-line_shell_(Espa%C3%B1ol)">ArchWiki: Command-line shell</a></li>
+            <li><a href="https://learn.microsoft.com/es-es/powershell/scripting/overview">Microsoft Learn: ¿Qué es PowerShell?</a></li>
+          </ul>
+        </section>
+      </section>
         </div>
     </div>
 

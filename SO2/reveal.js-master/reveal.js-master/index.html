@@ -772,8 +772,55 @@
         <section>
           <h2>Bibliografías</h2>
           <ul>
-            <li><a href="https://www.cisco.com/c/es_mx/solutions/small-business/resource-center/networking/what-is-a-computer-network.html">Cisco: ¿Qué es una red de computadoras?</a></li>
+            <li><a href="https://www.cisco.com/site/mx/es/index.html">Cisco: ¿Qué es una red de computadoras?</a></li>
             <li><a href="https://www.ibm.com/mx-es/topics/networking">IBM: Guía completa sobre redes informáticas</a></li>
+          </ul>
+        </section>
+      </section>
+
+      <section data-background-gradient="linear-gradient(135deg, #0078D7 0%, #002050 100%)" id="Actividad 22 - Windows">
+        <section>
+          <h1>Windows (Arquitectura NT)</h1>
+          <p>Por Eduardo Abraham López Guerrero</p>
+        </section>
+        
+        <section style="text-align: left;">
+          <h2>Definición y Arquitectura</h2>
+          <ul>
+            <li><strong>Evolución:</strong> Aunque inició como una interfaz gráfica para MS-DOS, el verdadero salto se dio con la línea <strong>Windows NT</strong> (New Technology), que hoy es la base de todo (desde Windows XP hasta Windows 11).</li>
+            <li><strong>Arquitectura:</strong> Utiliza un diseño de <i>kernel híbrido</i>. Separa estrictamente el "Modo Usuario" (donde corren las apps normales) del "Modo Kernel" (donde corren los drivers y el núcleo), protegiendo al sistema de bloqueos fatales.</li>
+          </ul>
+        </section>
+
+        <section style="text-align: left;">
+          <h2>Funcionamiento</h2>
+          <ul>
+            <li><strong>Procesos e Hilos:</strong> Windows utiliza multitarea preventiva. Un <i>proceso</i> es un programa en ejecución (ej. Chrome), y un <i>hilo (thread)</i> es una tarea individual dentro de ese programa (ej. cada pestaña de Chrome). El kernel reparte el tiempo de la CPU entre miles de hilos en milisegundos.</li>
+            <li><strong>El Registro del Sistema (Registry):</strong> Es una enorme base de datos jerárquica y centralizada. En lugar de usar miles de archivos de texto sueltos (como en Linux), Windows guarda todas las configuraciones del hardware, software y usuarios en el Registro.</li>
+          </ul>
+        </section>
+
+        <section style="text-align: left;">
+          <h2>Tipos de Versiones</h2>
+          <ul>
+            <li><strong>Versiones de Escritorio (Home, Pro, Enterprise):</strong> Diseñadas para el usuario final. Priorizan la interfaz gráfica (GUI), el soporte multimedia, los videojuegos y la ofimática.</li>
+            <li><strong>Versiones Server (ej. Windows Server 2022):</strong> Optimizadas para servicios de red ininterrumpidos. Pueden instalarse en modo "Server Core" (sin ventanas, puro comando) y manejan herramientas críticas como Active Directory, IIS (servidor web) y Hyper-V.</li>
+          </ul>
+        </section>
+
+        <section style="text-align: left;">
+          <h2>Ventajas de Uso</h2>
+          <ul>
+            <li><strong>Compatibilidad Universal:</strong> Al tener el monopolio del mercado de PC (más del 70%), prácticamente cualquier hardware, videojuego o software comercial está garantizado para funcionar en Windows.</li>
+            <li><strong>Soporte Corporativo:</strong> La integración nativa con el ecosistema de Microsoft (Office 365, Azure, OneDrive, Active Directory) lo convierte en la opción estándar y más segura para la infraestructura de cualquier empresa.</li>
+          </ul>
+        </section>
+        
+        <section>
+          <h2>Bibliografías</h2>
+          <ul>
+            <li><a href="https://learn.microsoft.com/es-es/windows/win32/sysinfo/operating-system-version">Microsoft Learn: Arquitectura de Windows y versiones</a></li>
+            <li><a href="https://learn.microsoft.com/es-es/troubleshoot/windows-server/performance/windows-registry-advanced-users">Soporte de Microsoft: Información avanzada sobre el Registro de Windows</a></li>
           </ul>
         </section>
       </section>
